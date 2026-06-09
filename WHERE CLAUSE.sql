@@ -31,3 +31,8 @@ WHERE (first_name = 'leslie'  AND age =44 ) OR age > 55
  FROM employee_demographics
  WHERE first_name LIKE 'a%'
  ;
+ 
+ SELECT *
+ FROM employee_demographics
+ WHERE first_name LIKE 'jer%'
+ ;
